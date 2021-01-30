@@ -1,0 +1,54 @@
+body{
+	text-align: center;
+	background-color: Aqua;
+	background: url('./background.jpg');
+	background-size: 100%;
+}
+
+form
+{
+    display: inline-block;
+    text-align: left;
+}
+input{
+	margin: 10px;
+	text-align: center;
+	max-width: 20%;
+	border-width: 3px;
+	border-style: dashed;
+}
+
+select{
+	margin: 10px
+}
+
+.form-class{
+	width: 50%;
+	background-color: PowderBlue;
+	margin: auto;
+}
+
+#submit{
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+}
+
+
+#prediction{
+	font-style: Lucida Console;
+}
+
+.animation {
+  width: 100px;
+  height: 30px;
+  background: Orange;
+  position: relative;
+  animation: mymove 8s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0%;}
+  to {left: 100%;}
+
+
