@@ -1,9 +1,9 @@
 
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 17 22:50:10 2020
 
-@author: kosaraju vivek
+
+@author: Manoj Kumar
 """
 
 import numpy as np
@@ -22,6 +22,9 @@ transformer = pickle.load(open('transformer.pkl', 'rb'))
 @app.route('/')
 def home():
     return render_template('index.html')
+@app.route('/')
+def conta():
+   return render_template('contactus.html')
 
 @app.route('/predict',methods=['POST'])
 def predict():
